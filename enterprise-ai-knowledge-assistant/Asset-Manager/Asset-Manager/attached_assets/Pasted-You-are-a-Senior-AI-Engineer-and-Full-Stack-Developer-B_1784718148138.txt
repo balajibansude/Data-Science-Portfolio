@@ -1,0 +1,70 @@
+You are a Senior AI Engineer and Full-Stack Developer.
+
+Build a production-ready Enterprise AI Knowledge Assistant that allows organizations to upload internal documents and ask questions using Retrieval-Augmented Generation (RAG). The application should answer only from uploaded documents and provide source citations with every response.
+
+Tech Stack:
+- Python
+- FastAPI
+- LangChain
+- ChromaDB (vector database)
+- PostgreSQL
+- Sentence Transformers
+- React (Vite + TypeScript)
+- Tailwind CSS
+- JWT Authentication
+
+Core Features:
+1. User authentication (Register/Login)
+2. Upload PDF, DOCX, TXT and CSV files.
+3. Extract and preprocess document text.
+4. Split documents into chunks.
+5. Generate embeddings using Sentence Transformers.
+6. Store embeddings in ChromaDB.
+7. Store document metadata in PostgreSQL.
+8. Implement a RAG pipeline:
+   - Convert user query to embedding.
+   - Retrieve relevant document chunks.
+   - Send retrieved context to the LLM.
+   - Return accurate answers with source citations.
+9. ChatGPT-style chat interface with conversation history.
+10. Dashboard showing uploaded documents and recent chats.
+11. Search documents using semantic similarity.
+12. Admin can manage users and uploaded documents.
+
+Machine Learning Features:
+- Automatic document classification (HR, Finance, Legal, Engineering, Marketing).
+- Semantic similarity search.
+- Duplicate document detection.
+- Topic extraction using NLP.
+
+UI Requirements:
+- Modern SaaS design.
+- Responsive layout.
+- Dark mode.
+- Sidebar navigation.
+- Upload progress.
+- Chat page.
+- Dashboard with analytics cards.
+
+Project Structure:
+- Backend and frontend should be separate.
+- Use clean architecture with reusable services, routers, models, and utilities.
+- Use environment variables for configuration.
+- Follow SOLID principles and write modular code.
+
+Important:
+- Generate the project phase by phase instead of everything at once.
+- Start with project architecture and folder structure.
+- Then build the backend.
+- After backend completion, build the frontend.
+- Finally integrate both and add testing, Docker support, and deployment instructions.
+
+For every phase provide:
+- Folder structure
+- Complete source code
+- Explanation of the implementation
+- Commands to run
+- Dependencies used
+- Testing instructions
+
+Write production-quality code with comments where necessary. Do not skip implementation details or use placeholders.

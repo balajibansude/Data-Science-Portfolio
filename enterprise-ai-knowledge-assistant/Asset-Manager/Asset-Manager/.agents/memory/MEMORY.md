@@ -1,0 +1,3 @@
+- [passlib-python313](passlib-python313.md) — passlib[bcrypt] breaks on Python 3.13; use bcrypt directly instead
+- [google-fonts-tailwind-v4](google-fonts-tailwind-v4.md) — @import url() in Tailwind v4 CSS causes PostCSS error; put fonts in index.html instead
+- [orval-imports](orval-imports.md) — generated types live at @workspace/api-client-react (not /src/generated/api.schemas); UseQueryOptions requires queryKey so remove extra options or cast as any
