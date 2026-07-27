@@ -47,3 +47,23 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.*
+
+# Runtime data
+uploads/
+chroma_db/
+
+# IDE
+.vscode/
+
+# OS files
+.DS_Store
