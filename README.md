@@ -175,6 +175,5 @@ New projects and improvements will be added regularly as I continue learning and
 
 ## 📬 Connect With Me
 
-- LinkedIn: *(Add your LinkedIn URL)*
-- GitHub: *(Add your GitHub URL)*
-- Email: *(Add your email)*
+- LinkedIn:https://www.linkedin.com/in/balaji-bansude
+- Email: balajibansude9@gmail.com
